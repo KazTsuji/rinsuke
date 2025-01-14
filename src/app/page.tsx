@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <div className="bg-yellow-10">
       <Header />
+      
       <HeroSection/>
+      
       <Footer />
     </div>
   );
