@@ -21,7 +21,7 @@ const Header = () => (
             <a href="/" className="hover:text-blue-800">ホーム</a>
           </li>
           <li>
-            <a href="/Price" className="hover:text-blue-800">料金表</a>
+            <a href="/PriceBoard" className="hover:text-blue-800">料金表</a>
           </li>
           <li>
             <a href="/Access" className="hover:text-blue-800">アクセス</a>

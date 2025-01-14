@@ -19,7 +19,7 @@ const Contact = () => {
     e.preventDefault();
     
     try {
-      const res = await fetch('/api/send-email', {  // APIエンドポイントを利用
+      const res = await fetch('/api/sendEmail', {  // APIエンドポイントを利用
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -51,7 +51,7 @@ const Contact = () => {
             id="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded"
+            className="w-full p-2 border border-gray-300 rounded text-black"
             required
           />
         </div>
@@ -64,7 +64,7 @@ const Contact = () => {
             id="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded"
+            className="w-full p-2 border border-gray-300 rounded text-black"
             required
           />
         </div>
@@ -76,7 +76,7 @@ const Contact = () => {
             id="message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded"
+            className="w-full p-2 border border-gray-300 rounded text-black"
             rows={4}
             required
           />
