@@ -19,6 +19,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
 body {
+  margin: 0;
+  padding: 0;
   color: var(--foreground);
   background-color: #fcfcf0; 
   font-family: 'Zen Kurenaido', sans-serif;

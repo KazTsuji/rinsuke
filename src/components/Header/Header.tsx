@@ -4,7 +4,7 @@ import DropdownMenu from "./DropdownMenu";
 const Header = () => (
   <header>
     <div className='bg-black bg-opacity-5'>
-    <div className="flex items-center justify-between ">
+    <div className="flex items-center justify-between p-4 ">
       {/* Logo Section */}
       <div className="flex-shrink-0 pl-5">
         <img 

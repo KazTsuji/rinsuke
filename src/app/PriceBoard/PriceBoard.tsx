@@ -1,5 +1,5 @@
 const PriceBoard = () => (
-    <div className="flex flex-col items-center justify-center bg-blue-950 p-5">
+    <div className="flex flex-col items-center justify-center bg-[url('/images/bg.png')] p-5 h-[960px]">
       <div className="flex justify-center w-full mb-20">
         
       </div>
