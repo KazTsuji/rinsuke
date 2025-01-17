@@ -1,14 +1,14 @@
 const Access = () => (
-  <div className="flex flex-col items-center justify-center bg-[url('/images/bg.png')] p-24">
-    <div className="flex justify-center w-full mb-20">
+  <div className="flex flex-col items-center justify-center bg-[url('/images/bg.png')] px-5 py-10">
+    <div className="flex justify-center w-full mb-10">
       <img
         src="/images/map.png"
         alt="Map"
-        className="w-full max-w-[800px] h-auto"
+        className="w-full max-w-[800px] sm:w-[600px] h-auto"
       />
     </div>
     <div>
-      <button className="bg-yellow-600 font-black text-xl px-5 py-2 m-10 rounded-xl">
+      <button className="bg-yellow-600 font-black text-xl px-3 py-2 rounded-xl  sm:w-[300px]">
         <a
           href="https://maps.app.goo.gl/rAgvzrr5amQxaAV58"
           target="_blank"

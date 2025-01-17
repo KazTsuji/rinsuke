@@ -37,16 +37,16 @@ const DropdownMenu = () => {
       {isMenuOpen && (
         <ul className="w-60 absolute right-0 mt-2 bg-black shadow-lg rounded-md text-white ">
           <li className=" p-2 hover:bg-gray-100">
-            <a href="#">ホーム</a>
+            <a href="/">ホーム</a>
           </li>
           <li className="p-2 hover:bg-gray-100">
-            <a href="#">料金表</a>
+            <a href="/PriceBoard">料金表</a>
           </li>
           <li className="p-2 hover:bg-gray-100">
-            <a href="#">アクセス</a>
+            <a href="/Access">アクセス</a>
           </li>
           <li className="p-2 hover:bg-gray-100">
-            <a href="#">問い合わせ・見積もり依頼</a>
+            <a href="/Contact">問い合わせ・見積もり依頼</a>
           </li>
         </ul>
       )}
