@@ -14,7 +14,7 @@ const ContactWithSns = () => {
             background: 'linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4)',
           }}
         >
-          <p className="font-bold text-lg">InstagramでDMはこちらから</p>
+          <a href="https://www.instagram.com/happi_rinsuke" className="font-bold text-lg">InstagramでDMはこちらから</a>
         </div>
       </div>
     );
