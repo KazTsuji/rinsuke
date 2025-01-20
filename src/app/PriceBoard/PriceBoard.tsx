@@ -25,7 +25,7 @@ const PriceBoard = () => (
         </tr>
         <tr>
           <td className="border border-gray-300 px-5 py-5">ポケット縫い付け</td>
-          <td className="border border-gray-300 px-5 py-5">3,000円</td>
+          <td className="border border-gray-300 px-5 py-5">2,000円</td>
         </tr>
         <tr>
           <td className="border border-gray-300 px-5 py-5">丈詰め</td>

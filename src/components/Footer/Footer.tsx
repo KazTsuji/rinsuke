@@ -15,10 +15,10 @@ const Footer = () => (
           <a href="">代表 辻川浩一</a>
         </li>
         <li>
-          <a href="">電話番号 090XXXXXXXX</a>
+          <a href="">電話番号 09011510374</a>
         </li>
         <li>
-          <a href="">Eメール　xxxxxxxxxxx@gmail.com</a>
+          <a href="">Eメール　tujikawa5950023@gmail.com</a>
         </li>
         <li>
           <a href="">営業時間　AM９:００～PM５:００</a>

@@ -6,7 +6,7 @@ export default function Home() {
     <div className="bg-yellow-10">
 
       <PriceBoard />
-      
+
     </div>
   );
 }

@@ -4,19 +4,20 @@ import DropdownMenu from "./DropdownMenu";
 const Header = () => (
   <header>
     <div className='bg-black bg-opacity-5'>
-    <div className="flex items-center justify-between py-4 ">
+    <div className="flex items-center justify-between  ">
       {/* Logo Section */}
       <div className="flex-shrink-0 pl-5">
+        <a href="/">
         <img 
-          src="/images/banner1.png" 
+          src="/images/banner.png" 
           alt="Shop Logo" 
-          className="max-w-[320px] h-auto"
-        />
+          className="max-w-[320px] md:w-[200px] h-auto"
+        /></a>
       </div>
 
       {/* Navigation Section */}
       <nav>
-        <ul className="hidden md:flex space-x-16 mr-20 text-black text-2xl font-bold ">
+        <ul className="hidden md:flex space-x-16 mr-20 md:space-x-5 md:text-lg text-black text-2xl font-bold">
           <li>
             <a href="/" className="hover:text-blue-800">ホーム</a>
           </li>
