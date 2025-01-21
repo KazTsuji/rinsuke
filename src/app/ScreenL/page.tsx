@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function LargePage() {
     return (
-        <section className="relative bg-black bg-cover bg-center text-white h-[1600px] min-h-[800px]">
+        <section className="relative bg-black bg-cover bg-center lg:py-10 text-white h-[1600px] min-h-[1700px]">
           {/* Section 1 */}
           <div>
             {/* Image 1 */}
@@ -17,7 +17,7 @@ export default function LargePage() {
               <img
                 src="/images/s1.png"
                 alt="Image 1"
-                className="w-[300px] max-w-[350px] h-auto"
+                className=" md:w-[200px] lg:w-[300px] h-auto"
               />
             </motion.div>
     
@@ -44,7 +44,7 @@ export default function LargePage() {
               <img
                 src="/images/i1.png"
                 alt="Illustration 1"
-                className="w-[500px] max-w-[550px] h-auto"
+                className="md:w-[200px] lg:w-[500px] h-auto"
               />
             </motion.div>
           </div>
@@ -61,13 +61,13 @@ export default function LargePage() {
               <img
                 src="/images/s2.png"
                 alt="Image 2"
-                className="w-[80vm] max-w-[300px] h-auto"
+                className="md:w-[200px] lg:w-[300px] h-auto"
               />
             </motion.div>
     
             {/* Description 2 */}
             <motion.div
-              className="absolute p-5 text-center text-xl font-bold max-w-[600px]"
+              className="absolute px-16 text-center text-xl font-bold max-w-[600px]"
               style={{ left: "50%", transform: "translateX(-50%)", top: "800px" }}
               initial={{ opacity: 0, filter: "blur(10px)" }}
               whileInView={{ opacity: 1, filter: "blur(0px)" }}
@@ -88,7 +88,7 @@ export default function LargePage() {
               <img
                 src="/images/i2.png"
                 alt="Illustration 2"
-                 className="w-[500px] max-w-[550px] h-auto"
+                 className="md:w-[200px] lg:w-[500px] h-auto"
               />
             </motion.div>
           </div>
@@ -106,13 +106,13 @@ export default function LargePage() {
               <img
                 src="/images/s3.png"
                 alt="Image 3"
-                className="w-[80vm] max-w-[300px] h-auto"
+                className="md:w-[200px] lg:w-[300px] h-auto"
               />
             </motion.div>
     
             {/* Description 3 */}
             <motion.div
-              className="absolute p-5 text-center text-xl font-bold max-w-[600px]"
+              className="absolute px-16 text-center text-xl font-bold max-w-[600px]"
               style={{ left: "50%", transform: "translateX(-50%)", top: "1300px" }}
               initial={{ opacity: 0, filter: "blur(10px)" }}
               whileInView={{ opacity: 1, filter: "blur(0px)" }}
@@ -133,7 +133,7 @@ export default function LargePage() {
               <img
                 src="/images/i3.png"
                 alt="Illustration 3"
-                 className="w-[500px] max-w-[550px] h-auto"
+                 className="md:w-[200px] lg:w-[500px] h-auto"
               />
             </motion.div>
           </div>

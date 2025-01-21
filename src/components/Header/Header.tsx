@@ -11,13 +11,13 @@ const Header = () => (
         <img 
           src="/images/banner.png" 
           alt="Shop Logo" 
-          className="max-w-[320px] md:w-[200px] h-auto"
+          className="max-w-[320px] md:w-[260px] lg:w-[340px] lg:m-4 h-auto"
         /></a>
       </div>
 
       {/* Navigation Section */}
       <nav>
-        <ul className="hidden md:flex space-x-16 mr-20 md:space-x-5 md:text-lg text-black text-2xl font-bold">
+        <ul className="hidden md:flex space-x-16 mr-10 md:space-x-6 lg:space-x-14 md:text-base lg:text-2xl text-2xl text-black  font-bold">
           <li>
             <a href="/" className="hover:text-blue-800">ホーム</a>
           </li>

@@ -1,3 +1,5 @@
+/*page.tsxでこのページはタブレットとして取得されない。可能であれば、いずれ改変が必要 */
+
 'use client';
 import { motion } from "framer-motion";
 

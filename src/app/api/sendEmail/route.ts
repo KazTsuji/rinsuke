@@ -18,7 +18,7 @@ export async function POST(req: Request) {
     // メールオプション
     const mailOptions = {
       from: process.env.EMAIL_USER, // 送信元（固定）
-      to: 'y9c.elm4a@gmail.com', // 宛先（固定）
+      to: 'tujikawa5950023@gmail.com', // 宛先（固定）
       subject: `Contact form submission from ${name}`,
       text: message,
       html: `
